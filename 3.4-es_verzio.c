@@ -8,43 +8,56 @@
    másképpen van indexelve: C-ben 0-9 van 1-10 helyett, és az egész
    tábla Y-tengely szerint megfordul. */
 
-int CS_V(int u, int i, int j, int k, int l) 
+int
+CS_V (int u, int i, int j, int k, int l)
 {
-   int x,y,z,s=0,stop=0;
-   for (z=0;z<4;++z)
-   {
-      x=i+z*k;
-      y=j+z*l;
-      if ((x<0) || (x>9) || (y<0) || (y>9)) stop=1;
-      if (Tabla[x][y]!=u) stop=1;
-      else if (!stop) ++s;
-      }
-   return s;
+  int x, y, z, s = 0, stop = 0;
+  for (z = 0; z < 4; ++z)
+    {
+      x = i + z * k;
+      y = j + z * l;
+      if ((x < 0) || (x > 9) || (y < 0) || (y > 9))
+	stop = 1;
+      if (Tabla[x][y] != u)
+	stop = 1;
+      else if (!stop)
+	++s;
+    }
+  return s;
 }
 
-int CS_HanyVanNeki(int mije, int kinek)
+int
+CS_HanyVanNeki (int mije, int kinek)
 {
-   int perjel, fordperjel, vizsz, fugg, szaml=0;
-   fordperjel=CS_V(kinek,utolsolepes,TJ[utolsolepes],1,1)+
-      CS_V(kinek,utolsolepes,TJ[utolsolepes],-1,-1)-1;
-   perjel=CS_V(kinek,utolsolepes,TJ[utolsolepes],1,-1)+
-      CS_V(kinek,utolsolepes,TJ[utolsolepes],-1,1)-1;
-   vizsz=CS_V(kinek,utolsolepes,TJ[utolsolepes],-1,0)+
-      CS_V(kinek,utolsolepes,TJ[utolsolepes],1,0)-1;
-   fugg=CS_V(kinek,utolsolepes,TJ[utolsolepes],0,1)+
-      CS_V(kinek,utolsolepes,TJ[utolsolepes],0,-1)-1;
+  int perjel, fordperjel, vizsz, fugg, szaml = 0;
+  fordperjel = CS_V (kinek, utolsolepes, TJ[utolsolepes], 1, 1) +
+    CS_V (kinek, utolsolepes, TJ[utolsolepes], -1, -1) - 1;
+  perjel = CS_V (kinek, utolsolepes, TJ[utolsolepes], 1, -1) +
+    CS_V (kinek, utolsolepes, TJ[utolsolepes], -1, 1) - 1;
+  vizsz = CS_V (kinek, utolsolepes, TJ[utolsolepes], -1, 0) +
+    CS_V (kinek, utolsolepes, TJ[utolsolepes], 1, 0) - 1;
+  fugg = CS_V (kinek, utolsolepes, TJ[utolsolepes], 0, 1) +
+    CS_V (kinek, utolsolepes, TJ[utolsolepes], 0, -1) - 1;
 
-   if (fordperjel>4) fordperjel=4;
-   if (perjel>4) perjel=4;
-   if (vizsz>4) vizsz=4;
-   if (fugg>4) fugg=4;
+  if (fordperjel > 4)
+    fordperjel = 4;
+  if (perjel > 4)
+    perjel = 4;
+  if (vizsz > 4)
+    vizsz = 4;
+  if (fugg > 4)
+    fugg = 4;
 
-   if (fordperjel==mije) ++szaml;
-   if (perjel==mije) ++szaml;
-   if (vizsz==mije) ++szaml;
-   if (fugg==mije) ++szaml;
+  if (fordperjel == mije)
+    ++szaml;
+  if (perjel == mije)
+    ++szaml;
+  if (vizsz == mije)
+    ++szaml;
+  if (fugg == mije)
+    ++szaml;
 
-   return szaml;
+  return szaml;
 }
 
 
