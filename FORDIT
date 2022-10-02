@@ -1,0 +1,3 @@
+gcc -c -fpic -I/usr/X11R6/include jatek.c
+gcc -s jatek.o -o Csoamoba -lforms -lXpm -L/usr/X11R6/lib -lX11 -lm
+rm jatek.o

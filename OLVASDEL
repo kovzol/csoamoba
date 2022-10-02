@@ -1,0 +1,26 @@
+Ez egy hevenyészett leírás. Éjfél elõtt írom, szóval sok jóra ne számíts!
+
+Az installáláshoz...
+
+Kell elõször is egy Forms Library, jó, ha viszonylag friss van. Én a
+0.81-es verzióval dolgozom 1998. decemberében; azóta tudom, már régen van
+újabb. Kell egy Xpm csomag is, ez viszonylag standard része a Linuxnak.
+
+A fordítás egyszerûen a FORDIT script indításával megy. (Az én gépemen ha
+-O opcióval optimalizálok, folyton Bus errort meg Segmentation faultot
+jelez. Jó, az én gépem alaplaphibás -- vagy nem hûtöm eléggé a
+processzort? ezt nem tudom --, de ennyit számítana? Na, ha gondolod, írj
+bele mindkét sorba egy-egy -O opciót is.)
+
+Futtatni a Csoamoba bináris fájlt kell (mást nem is nagyon tudsz). Ez a
+4.1-es verzió. Talán hamarosabb lesz jobb. Bíró Csabin múlik, hogy
+mikor írja meg a "Kaszparov" fedõnevû verhetetlen stratégiáját.
+
+(Egyelõre semmi "make install" meg ilyesmi nincs. Örülök, hogy sikerült
+kiküszöbölnöm a Bus errort. A Netscape-nek mi baja van folyton, hogy Bus
+error-ozik, by the way?)
+
+Endzsoj!
+
+Kovács Zoltán
+h430877@stud.u-szeged.hu

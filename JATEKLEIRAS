@@ -1,0 +1,105 @@
+"Játszottam Félixszel, és én voltam az X-szel.
+Megijedtem, látva, hogy lerakott már hármat."
+(Kovács Zsigmond, középiskolai tanuló, 1994)
+
+
+CSÔAMÔBA V4.0
+Az ôsi kínai játék linuxos verziója
+
+
+Végre! Hosszú hallgatás után itt a méltán népszerû Csõamõba címû játék
+legújabb verziója, ezúttal -- az újabban szintén népszerû -- Linux
+operációs rendszeren. A program az egyre inkább terjedõben lévõ XForms
+Library segítségével íródott, melynek szerzõi T. C. Zhao és Mark Overmars.
+(Valójában más platformokon is futnia kell, amelyekre Zhao kollégáék
+lefordították az XFormsot.) 
+
+A Csõamõba nagy karriert futott be. 1994-ben harmadik díjat nyert a
+szekszárdi Garay-versenyen, melynek eredményeképpen '94 õszén a budapesti
+COMPFAIR kiállításon is bemutatkozhatott.  Hogyan is kínáltuk akkor
+portékánkat a szóróanyagokon? 
+
+--------------------------------------------------------------------------
+Ebben az igen szellemes, jó közérzetet biztosító játékban sok érdekességre
+derül fény.  Maga a program a Négy a nyerô néven közismert táblás játékot
+dolgozza fel. Két játékos -- melyek közül egyik a számítógép is lehet --
+felváltva ejti be korongjait egy 10x10-es rácsba. Az a játékos nyer, aki a
+saját színébôl négyet el tud helyezni egymás mellett. 
+
+Ha még nem nyûgözte volna le szoftverünk eredetisége, hadd mutassunk be
+egy kis ízelítôt néhány köztiszteletben álló személy mondásaiból: 
+
+"A Csôamôba egy valóban jól megírt program..."
+			(Kosztolányi József, tanársegéd, JATE) 
+
+"Jó játék a Csôamôba, ezért szép a szép idô ma!"
+			(Milos Zmrzlina, cseh származású magyar zeneszerzô) 
+
+"Ebben a játékban ugyanúgy jelen van az abszurditás, mint a paraszti
+egyszerûség, és a mély, igazán emberi humor."
+			(Kamika Z. Sándor, újságíró) 
+
+"Egyre-másra jelennek meg azok a szoftverek, amik lélektanilag ejtik rabul
+a felhasználót.  Igen, a számítógép elembertelenít, ezt minden olyan
+szakember elismeri, aki valaha is emberekkel foglalkozott. Nagy öröm olyan
+programrendszereket is látni, amelyek az emberi kapcsolatok fontosságát
+hangsúlyozzák."
+			(F. Nagy Vilmos, adószakértô, 
+			másodállásban mûvészettörténész) 
+
+---------------------------------------------------------------------------
+
+A szoftver mintegy 300 forintot kóstált, és hat darabot adtunk el belõle
+Pesten.  Fent ismerkedtünk össze a RoKeSoft dunaújvárosi szerzõpáros egyik
+felével, az õ jóvoltukból jutottunk hozzá egy teljes WAV/VOC-lejátszó
+Pascal-könyvtárhoz (...amit sajnos azóta sem használtunk fel... az egyetem
+felemészti az ember energiáit, a 3.5-ös Csõamõba sem látott napvilágot,
+pedig sokat csiszolgattunk még a 3.4-es verzión). 
+
+Egyikünket mellesleg kereskedelmi célú levelezésért azonnal le is
+tiltották az egyetemi számítógép-hálózatról, mert a következõ levelet
+félrecímezte, és a rendszergazda kapva kapott a retorzió lehetõségén... 
+
+"Kedves Zsolti! A 3.4-es Csõamõbát (lemezzel együtt) 250 forintért
+számítjuk meg neked.  (A "bolti" ár 300 forint, tehát ez 50 forint
+kedvezményt jelent...)" 
+
+A rendszergazda elsõ kérdése ez volt: "Nos, akkor árulja el, hány forintot
+kerestek ezzel a játékprogrammal?" Azt hitték ugyanis, hogy az egyetem
+gépeit használtuk fel arra a célra, hogy -- oktatási/kutatási célokkal
+szemben -- rövid idõ alatt meggazdagodjunk. 
+
+Ez a pillanat a mai napig nem érkezett el. De hátha mostantól megfordul a
+dolog!  Bár ez -- a 4.0-ás -- a verzió egyelõre ingyér' van, a következõ,
+profibb verziókat már lehet, hogy valami névleges áron fogjuk "piacra
+dobni". (Igazából a 3.4-es verzió is freeware lett, amikor feltettük az
+InterNetre 1996 áprilisában. Azóta bárki letöltheti, akár Te is, ha még
+nem láttad volna a DOS-os verziót. '94-ben még többeknek volt 386-osuk,
+mint 486-osuk, ezért 386-oson a legélvezhetõbb a játék. Elég kényelmetlen
+az idõmérés szempontjából, hogy a DOS-os verzió a Pascal Delay eljárását
+használja az idõzítéshez. Ez Pentiumon már sajnos élvezhetetlen
+gyorsaságot jelent.) 
+
+A CSÔAMÔBA program megrendelhetô a következô címek egyikén (hogy pontosan
+melyiken, azt továbbra sem áruljuk el): 
+
+Kovács Zoltán
+H-6723 Szeged, Lugas u. 4/VII/25.
+Tel.: (62) 474-241
+
+Bíró Csaba
+H-6900 Makó, Batthyány u. 35.
+Tel.: (62) 213-317
+
+Hibajelentést (bug reportot) vagy bármilyen megjegyzést a
+
+h430877@stud.u-szeged.hu
+h430909@stud.u-szeged.hu
+
+internetes email-címek valamelyikén várunk. A Csõamõba mindenkori
+legfrissebb verziója a Concentration SW Projects (sokak szerint ETASP)
+WWW-oldalán található meg és tölthetõ le, melynek címe: 
+
+http://www.cab.u-szeged.hu/local/etasp/
+
+Sok sikert... Polgár Zsuzsi ellen! :)
