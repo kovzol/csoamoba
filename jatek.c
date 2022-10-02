@@ -62,7 +62,7 @@ int main(int argc, char *argv[])
   FILE *p,*r;
   int i,I,j,kezdes=1;
   int v;
-  char buf[20];
+  char buf[30];
   char sc[2]; /* "shortcut" */
   sc[1]=0;
 
@@ -120,7 +120,7 @@ int main(int argc, char *argv[])
  
   do { /* EZ MEGY KÖRBE-KÖRBE JÁTÉKONKÉNT */
   Opsonsz_aktiv();
-  r=fopen("/dev/audio","w");
+  if (MUZIK==1) r=fopen("/dev/audio","w");
   
   // aktualizáljuk az új játékhoz a táblaképet
   if (KETJATEKOS || (GEP!=L)) // két játékos játszik vagy nem a gép kezd
@@ -142,7 +142,8 @@ int main(int argc, char *argv[])
      fl_activate_object(rubrika[i][9]);
      } // Mindig csak az oszlopok legalsó, még üres rubrikái aktívak.
        // Egyelõre viszont mind üres.
-  fl_show_form(form,FL_PLACE_SIZE,FL_FULLBORDER,"Csõamõba");
+  #include "jatek_ablakcim_utf8.c"
+  // fl_show_form(form,FL_PLACE_SIZE,FL_FULLBORDER,"Csõamõba");
   // Most tesszük ki a képernyõt.
 
 
@@ -255,7 +256,7 @@ int main(int argc, char *argv[])
 
   /* do {} while (1); */
   fl_hide_form(form);
-  fclose(r);
+  if (MUZIK==1) fclose(r);
   } /* !!! idáig tart a nagy forgás !!! */
 
   while (1);

@@ -75,9 +75,9 @@ void Opsonsz_inic(void)
     fl_set_object_lstyle(obj,FL_BOLD_STYLE);
     fl_set_slider_value(obj, 0.61);
      fl_set_slider_return(obj, FL_RETURN_CHANGED);
-  fl_add_box(FL_NO_BOX,220,380,30,30,"Polgár\n Zsuzsa");
+  fl_add_box(FL_NO_BOX,225,380,40,30,"Polgár\nZsuzsa");
     fl_set_object_color(obj,FL_DARKGOLD,FL_DARKGOLD);
-  fl_add_box(FL_NO_BOX,60,380,50,30,"Sehallselát\n Dömötör");
+  fl_add_box(FL_NO_BOX,40,380,70,30,"Sehallselát\nDömötör");
     fl_set_object_color(obj,FL_DARKGOLD,FL_DARKGOLD);
 
   gomb[0] = obj = fl_add_button(FL_NORMAL_BUTTON,100,440,130,40,"Start gáme");
@@ -100,7 +100,8 @@ void Opsonsz_aktiv()
   int i;
   FL_OBJECT *obj;
 
-  fl_show_form(opsonsz_menu,FL_PLACE_MOUSE,FL_FULLBORDER,"Opsönsz");
+  // fl_show_form(opsonsz_menu,FL_PLACE_MOUSE,FL_FULLBORDER,"Opsönsz");
+  #include "opsonsz_ablakcim_utf8.c"
 
   do
   	{
