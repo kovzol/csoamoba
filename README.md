@@ -26,7 +26,7 @@ Run the script `./FORDIT`.
 ## Disappointed? Use a former version!
 
 This version is a work in progress. Come back later or visit a [web page](https://matek.hu/zoltan/csoamoba)
-that presents a DOS emulator with Csőamőba version 3.4.
+that presents a DOS emulator with Csőamőba [version 3.4](3.4).
 
 ## Known bugs
 
