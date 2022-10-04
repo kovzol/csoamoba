@@ -15,12 +15,12 @@ of [Turbo Pascal](https://en.wikipedia.org/wiki/Turbo_Pascal) 7.0.
 
 ### Running the game
 
-Issue `run.sh` or `make`.
+Issue `./run.sh` or `make`.
 
 ### Recompiling the game
 
 After editing the file [CSAV34.PAS](CSAV34.PAS) (warning: it is a [CP 852](https://en.wikipedia.org/wiki/Code_page_852) encoded file),
-issue `compile.sh`. Then run the game. Lazy users may simply type `make` to compile and run the program consecutively.
+issue `./compile.sh`. Then run the game. Lazy users may simply type `make` to compile and run the program consecutively.
 
 #### Changes on the original source code
 
